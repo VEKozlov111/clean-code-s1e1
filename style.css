@@ -24,7 +24,7 @@
   }
 
 }
-.wrapper {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -36,6 +36,7 @@
 }
 .task-row-wrapper {
   display: flex;
+  padding-top: 20px;
 }
 .ul {
   margin: 0;
@@ -62,8 +63,7 @@ button:hover {
   color: #3a3A3a;
 }
 /* Heading */
-.title,
-.label {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
